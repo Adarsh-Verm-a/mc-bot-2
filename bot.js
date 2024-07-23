@@ -45,7 +45,7 @@ createBot();
 
 // HTTP server to keep Render happy
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 6969;
 app.get('/', (req, res) => res.send('Minecraft bot is running'));
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
